@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin sans',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.seniorlivingforesight.net/wp-content/uploads/2020/03/87418524_m-1280x640.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    float: right;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-right: 10px;
+    
+}
+span{
+    color:#f9004d;
+}
+ nav ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+}
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+ nav ul li a:hover{color: #f9004d;
+    transition: .4s;
+
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #d4dbe7;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+.newslatter form:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    border-radius:30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline:none;
+    border: none;
+    padding: 10px 30px;
+    border-radius:30px;
+    background-color: #f9004d;
+    color: rgb(234, 239, 248);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #868686;
+    top: 6px;
+    right: 6px;
+}
+
+
+
+
